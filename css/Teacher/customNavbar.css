@@ -1,0 +1,11 @@
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link:hover {
+    color: royalblue;
+  }

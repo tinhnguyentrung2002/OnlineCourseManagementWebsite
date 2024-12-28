@@ -1,0 +1,161 @@
+.intro-container {
+    background-color: #f5f5f5;
+}
+
+.intro-left {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 4%;
+    width: 100%;
+    height: auto;
+}
+
+.intro-left h1 {
+    font-size: 2.5rem;
+}
+
+.intro-left .button-group .btn {
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+}
+
+.intro-left .social-links a {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.intro-left .social-links a:hover {
+    color: #0056b3;
+}
+
+.feature-list {
+    font-size: 1.1rem;
+}
+
+.feature-card {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    background-color: #fddcc1;
+}
+
+.carousel-item {
+    height: 60vh;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.carousel-indicators [data-bs-target]:hover,
+.carousel-indicators [data-bs-target].active {
+    background-color: #555;
+}
+
+@media (max-width: 1024px) {
+    .intro-left {
+        height: auto; 
+    }
+
+    .carousel-item {
+        height: 50vh; 
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-left {
+        padding: 4% 2%; 
+        margin-bottom: 20px;
+    }
+
+    .intro-left h1 {
+        font-size: 2rem;
+    }
+
+    .intro-left .button-group .btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 0.875rem;
+    }
+
+    .feature-card {
+        margin-bottom: 15px; 
+    }
+
+    .feature-card i {
+        font-size: 2rem;
+    }
+
+    .feature-card .card-title {
+        font-size: 1.25rem;
+    }
+
+    .feature-card .card-text {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        height: 40vh; 
+    }
+}
+
+@media (max-width: 576px) {
+    .intro-left {
+        padding: 4% 2%; 
+        margin-bottom: 20px;
+    }
+
+    .intro-left h1 {
+        font-size: 1.75rem;
+    }
+
+    .intro-left .button-group .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .feature-card {
+        margin-bottom: 15px; 
+    }
+
+    .feature-card i {
+        font-size: 1.5rem;
+    }
+
+    .feature-card .card-title {
+        font-size: 1.15rem;
+    }
+
+    .feature-card .card-text {
+        font-size: 0.875rem;
+    }
+
+    .carousel-item {
+        height: 30vh; 
+    }
+}
+
+@media (max-width: 375px) {
+    .intro-left h1 {
+        font-size: 1.5rem;
+    }
+
+    .intro-left .button-group .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
+    }
+}
