@@ -53,7 +53,7 @@
 -	Duyệt/Ẩn khóa học, lớp học: Quản trị viên sẽ duyệt những khóa học của những giáo viên trước khi đưa khóa học lên ứng dụng cũng như có thể gỡ những khóa học không phù hợp tiêu chuẩn khỏi ứng dụng.
 ##### Dưới đây là link source code website quản trị của giáo viên và quản trị viên:
 [Link source code ứng dụng](https://github.com/tinhnguyentrung2002/projectCourseOnline)
-##### Video demo - Click vào link ảnh phía dưới:
+##### Video demo - Click vào link ảnh phía dưới để mở video:
 ***
 - Phút 0: Demo ứng dụng
 - Phút 10.55 : Demo website quản lý
